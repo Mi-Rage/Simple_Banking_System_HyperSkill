@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Simple_Banking_System/Main.java at e81169793ce484cf7e9cea1f96c8c755fcf6ad08 · Mi-Rage/Simple_Banking_System</title>
+  <title>Simple_Banking_System/Main.java at b4dac24c9cbb002ac08a5d54d17f00d3f35507e4 · Mi-Rage/Simple_Banking_System</title>
     <meta name="description" content="Simple_Banking_System of HyperSkill. Contribute to Mi-Rage/Simple_Banking_System development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/59646864?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Mi-Rage/Simple_Banking_System" /><meta property="og:url" content="https://github.com/Mi-Rage/Simple_Banking_System" /><meta property="og:description" content="Simple_Banking_System of HyperSkill. Contribute to Mi-Rage/Simple_Banking_System development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDg2MDkxNDI4OjI4ZTZlYjAwMjU4ODhiMDI5YTM0MzdiZmY2Y2QyNjIwYjk4ZDhmMzM4YmY2NjE1YTYzNjk5NmEyMjY0ZjU2MGY=--e229f4c35242254c9eedb72d8eb12753206a457d">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDg2MDkxNDI4OjdjOGQwYWNmYjljY2E3ZTE2YTcwZGQwNzdiNWEyYzUwZTY0NTZmNDljNzFiNjA0NWJmODRiYmFlZGM2ODk3MWQ=--99113dbd4a3dbf0df28af480eb40f29c1770d891">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="D0F7:7F54:170E07D:2040BFB:5E60F9A3" data-pjax-transient="true" /><meta name="html-safe-nonce" content="e200f9269b17fda4ebf44ad65881a40ef8c095d2" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9NaS1SYWdlL1NpbXBsZV9CYW5raW5nX1N5c3RlbS90cmVlL2U4MTE2OTc5M2NlNDg0Y2Y3ZTljZWExZjk2YzhjNzU1ZmNmNmFkMDgvYmFua2luZyIsInJlcXVlc3RfaWQiOiJEMEY3OjdGNTQ6MTcwRTA3RDoyMDQwQkZCOjVFNjBGOUEzIiwidmlzaXRvcl9pZCI6IjE3NzgwMjAxMjYwMDYwMzY0ODYiLCJyZWdpb25fZWRnZSI6ImFtcyIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="8470de608689b24f881ba1fad39dd04b6493719d03867529444e09116b6f35b7" data-pjax-transient="true" />
+  <meta name="request-id" content="78EF:AFF9:1BF00D6:2740EE4:5E60FAC8" data-pjax-transient="true" /><meta name="html-safe-nonce" content="e200f9269b17fda4ebf44ad65881a40ef8c095d2" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9NaS1SYWdlL1NpbXBsZV9CYW5raW5nX1N5c3RlbS90cmVlL2I0ZGFjMjRjOWNiYjAwMmFjMDhhNWQ1NGQxN2YwMGQzZjM1NTA3ZTQvYmFua2luZyIsInJlcXVlc3RfaWQiOiI3OEVGOkFGRjk6MUJGMDBENjoyNzQwRUU0OjVFNjBGQUM4IiwidmlzaXRvcl9pZCI6IjE3NzgwMjAxMjYwMDYwMzY0ODYiLCJyZWdpb25fZWRnZSI6ImFtcyIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="20a4afe7a33af95591e62aaba724e7c97c0f01e4fc3562f5a2957a05e73aeb8b" data-pjax-transient="true" />
 
 
 
@@ -76,21 +76,21 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="NTBlODNmMGQzMDAxMjY0ZWVmMjIzYmZhYzgzZWE4ZDAyMGI3YTQ2YzQ1NmUwNzU1OWJmYjJiMjg3ODgxYjZmZnx7InJlbW90ZV9hZGRyZXNzIjoiOTQuMjUuMjM5LjEyMiIsInJlcXVlc3RfaWQiOiJEMEY3OjdGNTQ6MTcwRTA3RDoyMDQwQkZCOjVFNjBGOUEzIiwidGltZXN0YW1wIjoxNTgzNDEzNjc3LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="NjM5ZTBlODI3YmZhM2JhMjk0N2Y3YTQwNzM2YWVlMzhkODFhM2Q5ODdkMWY1ZjIwMzM1NDQ5NDYwZDU5YzhkNHx7InJlbW90ZV9hZGRyZXNzIjoiOTQuMjUuMjM5LjEyMiIsInJlcXVlc3RfaWQiOiI3OEVGOkFGRjk6MUJGMDBENjoyNzQwRUU0OjVFNjBGQUM4IiwidGltZXN0YW1wIjoxNTgzNDEzOTY2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
   <meta http-equiv="x-pjax-version" content="1a494e7495f511fae296fedb112bbe92">
   
 
-      <link href="https://github.com/Mi-Rage/Simple_Banking_System/commits/e81169793ce484cf7e9cea1f96c8c755fcf6ad08.atom" rel="alternate" title="Recent Commits to Simple_Banking_System:e81169793ce484cf7e9cea1f96c8c755fcf6ad08" type="application/atom+xml">
+      <link href="https://github.com/Mi-Rage/Simple_Banking_System/commits/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4.atom" rel="alternate" title="Recent Commits to Simple_Banking_System:b4dac24c9cbb002ac08a5d54d17f00d3f35507e4" type="application/atom+xml">
 
   <meta name="go-import" content="github.com/Mi-Rage/Simple_Banking_System git https://github.com/Mi-Rage/Simple_Banking_System.git">
 
   <meta name="octolytics-dimension-user_id" content="59646864" /><meta name="octolytics-dimension-user_login" content="Mi-Rage" /><meta name="octolytics-dimension-repository_id" content="244118543" /><meta name="octolytics-dimension-repository_nwo" content="Mi-Rage/Simple_Banking_System" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="244118543" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Mi-Rage/Simple_Banking_System" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="true" />
 
 
-    <link rel="canonical" href="https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -163,7 +163,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="AZSEcQgTRVNwKRE5awEA25ckNrfpcnRX8EA5ExyaHedTVn/dGLaOYz9rLXAB0TvfyohkNUI6BcED9hdQ7sjIDQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="O6YwZafB+2Xj2oMhUhLgtwoNgS3QQwV55iasqC8OE+NpZMvJt2QwVayYv2g4wtuzV6HTr3sLdO8VkILr3VzGCQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -314,7 +314,7 @@
       <img class="avatar" height="20" width="20" alt="@Mi-Rage" src="https://avatars3.githubusercontent.com/u/59646864?s=60&amp;v=4" />
       Mi-Rage
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="LgbF63fZ9niNgVJ6CEWEkpsNpU2J0pGy0A/0w+pgJPN6ZF2rqwPfHt67BU22+m5FVVDr8mu6QUzeqbtAzH8NNw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Y2UX/a9e4CI6Z6V3Z1R7gYRWGYV7TxkWlpY6Z+N7AU83B4+9c4TJRGld8kDZ65FWSgtXOpknyeiYMHXkxWQoiw==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -408,7 +408,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:59646864,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:59646864,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java&quot;}}" data-hydro-click-hmac="048d9d90e891cbab22d1068824259cb1c89ab0ddd14cd1c09b36ee662080e109">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:59646864,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:59646864,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java&quot;}}" data-hydro-click-hmac="200311e43641508a899df90730a18801bd591aac6fac27e2c4b1ac20a4fc8b03">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -435,7 +435,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="lO3k1bBn+3WhPjrjL1i8yyBaxG30KWcgZ/Qt/8XU1+CksJwr6IV9ZoXhxvI6WUnxRitDeXCLXpTmhzNew2rm2w==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="bVlRMpLGMBnwRknkRNHWmEFlibuMHv7uaVR1JzbhRcFdBCnMyiS2CtSZtfVR0COiJxQOrwi8x1roJ2uGMF90+g==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -553,17 +553,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-05T16:37:57+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-05T16:42:46+03:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-05T17:07:57+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-05T17:12:46+03:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-05T20:07:57+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-05T20:12:46+03:00">
             in 4 hours
           </button>
         </li>
@@ -621,10 +621,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/Mi-Rage/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}"
-    data-feature-preview-close-hmac="84915a965005c47ff6f74eca89d5df0cf3a9c5deb816da19672863382ca4f1e1"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}"
-    data-hydro-click-hmac="8128539ffd378704e41d00ea54420cef03ee5c377ed76b6c03f788efc416d10e"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}"
+    data-feature-preview-close-hmac="92c1d16751a7883b764e1f90844b9316dbd929f1701b71ff90ccc85ddb18ec55"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}"
+    data-hydro-click-hmac="bc904befbb7e5b801d4a217fc34d406cfb0bb5a57aba75e4625631fd6f3cbdb2"
   >
     Feature preview
   </button>
@@ -633,12 +633,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="A4WFL++oUkvzdW1y/6zI1tClNMixOkVZ/WbZwd6TT/dX5x1vM3J7LaBPOkVBEyIBHvh6d1NSlafzwJZC+IxmMw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="IB4PQxH9241Brzo6rXBsTq+65DkrK01rL3zJuF9CknZ0fJcDzSfy6xKVbQ0Tz4aZYeeqhslDnZUh2oY7eV27sg==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_a1a3" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583413677171" class="form-control" /><input type="hidden" name="timestamp_secret" value="2c717d626ae6f82b9596d809cde85014a39959ca67c73a22e32df40369e3a3c5" class="form-control" />
+      <input type="text" name="required_field_6df8" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583413966944" class="form-control" /><input type="hidden" name="timestamp_secret" value="c7d9cd72e8d8c9913879d4f1350f75b86e40dcb60a3808042e1a39561aa0b0e9" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -709,10 +709,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="eL/Vf9/4O7Xj+LGtdiSKTqi+BXKMkXiJ3vZEIFlwaeJhhkIaPJoOkbxoAdh/GV95peIS4SC0nQtC1J9ica6yVA==" />      <input type="hidden" name="repository_id" value="244118543">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="uHYT74QWbwCA6IhOtAC8tP85kKpDU/wRXYMTVOXh80KhT4SKZ3RaJN94ODu9PWmD8mWHOe92GZPBocgWzT8o9A==" />      <input type="hidden" name="repository_id" value="244118543">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="822a6995af3c6a4d61c3af8b732a9ff076b75e868d0543233b287fae3d5b90af" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="f453acca03b26ecfc4b26a74a7bb9edd0c2b0585045b8f11d06f3c2f061bbe22" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Unwatch
           </span>
@@ -783,9 +783,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/Mi-Rage/Simple_Banking_System/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="0E8NAUXocurmJZ1ImG7vNjbumdYEAmxeSIN49PXOzUBOeKQv1NKwb7Y9lonetG0ANYQU79SBagpROGeN13Ox2w==" />
+    <form class="starred js-social-form" action="/Mi-Rage/Simple_Banking_System/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="LmcOsHUoUjXBHIiQC5dyxSSDQsJzIJKtYnp1jpNY4s+wUKee5BKQsJEEg1FNTfDzJ+nP+6OjlPl7wWr3seWeVA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Mi-Rage/Simple_Banking_System" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="0d86af178babd31e6d24ca89274599c88e34c0eef64a4f5c3402a9db97756d31" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Mi-Rage/Simple_Banking_System" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="6e03e1188c6cd5eafdb7a16991516336b743f73baffc51d2d477f173f2b24054" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/Mi-Rage/Simple_Banking_System/stargazers"
@@ -793,9 +793,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/Mi-Rage/Simple_Banking_System/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="bNH8pWzhQY/qemGgslzaTX/c/RrkIHTNHMniOLtv4SeDN8yfyTi1yebTkzU8pf6bwBKHwBBVfgyOZkPxJYyL7A==" />
+    <form class="unstarred js-social-form" action="/Mi-Rage/Simple_Banking_System/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="8O+2Ug9tbE6wS83OJg24rkbEz3TEc0tUk0sG03RUM4AfCYZoqrSYCLziP1uo9Jx4+Qq1rjAGQZUB5Kca6rdZSw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Mi-Rage/Simple_Banking_System" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="2fcd8dc472eed2555cb3f6ba425ff35e3393e19b41bda9c08d14c2916fb88278" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Mi-Rage/Simple_Banking_System" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="bb197fadc300cbc6b5b210e59ba8a234faa535a883a45488be763e52e3da7cd5" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/Mi-Rage/Simple_Banking_System/stargazers"
@@ -958,7 +958,7 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v22:1106e7c0d4481bec50e00cada98ae09f -->
       
@@ -971,11 +971,11 @@
            data-hotkey="w"
            title="Switch branches or tags">
     <i>Tree:</i>
-    <span class="css-truncate-target" data-menu-button>e81169793c</span>
+    <span class="css-truncate-target" data-menu-button>b4dac24c9c</span>
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Mi-Rage/Simple_Banking_System/refs/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Mi-Rage/Simple_Banking_System/refs/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
@@ -985,7 +985,7 @@
 </details>
 
         <div class="BtnGroup flex-shrink-0 d-md-none">
-          <a href="/Mi-Rage/Simple_Banking_System/find/e81169793ce484cf7e9cea1f96c8c755fcf6ad08"
+          <a href="/Mi-Rage/Simple_Banking_System/find/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4"
                 class="js-pjax-capture-input btn btn-sm BtnGroup-item"
                 data-pjax
                 data-hotkey="t">
@@ -997,11 +997,11 @@
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Mi-Rage/Simple_Banking_System/tree/e81169793ce484cf7e9cea1f96c8c755fcf6ad08"><span>Simple_Banking_System</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Mi-Rage/Simple_Banking_System/tree/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking"><span>banking</span></a></span><span class="separator">/</span><strong class="final-path">Main.java</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Mi-Rage/Simple_Banking_System/tree/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4"><span>Simple_Banking_System</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Mi-Rage/Simple_Banking_System/tree/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking"><span>banking</span></a></span><span class="separator">/</span><strong class="final-path">Main.java</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
-        <a href="/Mi-Rage/Simple_Banking_System/find/e81169793ce484cf7e9cea1f96c8c755fcf6ad08"
+        <a href="/Mi-Rage/Simple_Banking_System/find/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
               data-pjax
               data-hotkey="t">
@@ -1017,7 +1017,7 @@
 
 
 
-    <include-fragment src="/Mi-Rage/Simple_Banking_System/contributors/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java" class="Box Box--condensed commit-loader">
+    <include-fragment src="/Mi-Rage/Simple_Banking_System/contributors/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -1045,9 +1045,9 @@
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Mi-Rage/Simple_Banking_System/raw/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Mi-Rage/Simple_Banking_System/blame/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Mi-Rage/Simple_Banking_System/commits/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Mi-Rage/Simple_Banking_System/raw/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Mi-Rage/Simple_Banking_System/blame/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Mi-Rage/Simple_Banking_System/commits/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java">History</a>
     </div>
 
 
@@ -1129,7 +1129,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/Mi-Rage/Simple_Banking_System/blame/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/Mi-Rage/Simple_Banking_System/blame/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/Mi-Rage/Simple_Banking_System/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -1153,11 +1153,11 @@
     <div class="Popover anim-scale-in js-tagsearch-popover"
      hidden
      data-tagsearch-url="/Mi-Rage/Simple_Banking_System/find-symbols"
-     data-tagsearch-ref="e81169793ce484cf7e9cea1f96c8c755fcf6ad08"
+     data-tagsearch-ref="b4dac24c9cbb002ac08a5d54d17f00d3f35507e4"
      data-tagsearch-path="banking/Main.java"
      data-tagsearch-lang="Java"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:244118543,&quot;ref&quot;:&quot;e81169793ce484cf7e9cea1f96c8c755fcf6ad08&quot;,&quot;language&quot;:&quot;Java&quot;,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}"
-     data-hydro-click-hmac="1f6361f37db89448d64a0bbfe68f4b1a011a4506767c79e6b2f2f4455200e3d8">
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:244118543,&quot;ref&quot;:&quot;b4dac24c9cbb002ac08a5d54d17f00d3f35507e4&quot;,&quot;language&quot;:&quot;Java&quot;,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Main.java&quot;,&quot;user_id&quot;:59646864}}"
+     data-hydro-click-hmac="a711d6258548db631c776c476527bcce64701b16fc249c2d552ff2e699353a2c">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>

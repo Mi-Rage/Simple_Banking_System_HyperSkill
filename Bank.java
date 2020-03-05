@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Simple_Banking_System/Bank.java at e81169793ce484cf7e9cea1f96c8c755fcf6ad08 · Mi-Rage/Simple_Banking_System</title>
+  <title>Simple_Banking_System/Bank.java at b4dac24c9cbb002ac08a5d54d17f00d3f35507e4 · Mi-Rage/Simple_Banking_System</title>
     <meta name="description" content="Simple_Banking_System of HyperSkill. Contribute to Mi-Rage/Simple_Banking_System development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/59646864?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Mi-Rage/Simple_Banking_System" /><meta property="og:url" content="https://github.com/Mi-Rage/Simple_Banking_System" /><meta property="og:description" content="Simple_Banking_System of HyperSkill. Contribute to Mi-Rage/Simple_Banking_System development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDg2MDkxNDI4OjA1OWU4NTNiNjYwNTgxM2I2YTEyYWU3OWE4MjMxZjMxMTAxMThmOTJiN2RjYjlmYWQ1ZmEzMDBlZWQ2NzdiMzM=--10728089c0be52619d6bf248ad35ff311d4889f0">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDg2MDkxNDI4OjI4NWIwMjIxMTJhZjRlOTkyNTQ0NTMwMGRmMDM1NzlhZjBlZWRiY2FhZDJhYjlmN2VlYmU4NThiMDMwZDA3NmM=--91c62ccf76c00553d18b48da5d5125bc3dcd0d12">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="D0F7:7F54:170F304:2041CF7:5E60F9AD" data-pjax-transient="true" /><meta name="html-safe-nonce" content="e200f9269b17fda4ebf44ad65881a40ef8c095d2" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9NaS1SYWdlL1NpbXBsZV9CYW5raW5nX1N5c3RlbS90cmVlL2U4MTE2OTc5M2NlNDg0Y2Y3ZTljZWExZjk2YzhjNzU1ZmNmNmFkMDgvYmFua2luZyIsInJlcXVlc3RfaWQiOiJEMEY3OjdGNTQ6MTcwRjMwNDoyMDQxQ0Y3OjVFNjBGOUFEIiwidmlzaXRvcl9pZCI6IjE3NzgwMjAxMjYwMDYwMzY0ODYiLCJyZWdpb25fZWRnZSI6ImFtcyIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="d6fe951033c1542d35451933220aef01df3a3e9de10d77b06defa013b786657d" data-pjax-transient="true" />
+  <meta name="request-id" content="180A:208FF:1C54BA2:27CE6D8:5E60FABD" data-pjax-transient="true" /><meta name="html-safe-nonce" content="e200f9269b17fda4ebf44ad65881a40ef8c095d2" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9NaS1SYWdlL1NpbXBsZV9CYW5raW5nX1N5c3RlbS90cmVlL2I0ZGFjMjRjOWNiYjAwMmFjMDhhNWQ1NGQxN2YwMGQzZjM1NTA3ZTQvYmFua2luZyIsInJlcXVlc3RfaWQiOiIxODBBOjIwOEZGOjFDNTRCQTI6MjdDRTZEODo1RTYwRkFCRCIsInZpc2l0b3JfaWQiOiIxNzc4MDIwMTI2MDA2MDM2NDg2IiwicmVnaW9uX2VkZ2UiOiJhbXMiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="a70892709eb9ef3d901e3a32e64941f1b0767747cc1a1a8c9b717618cbc12c07" data-pjax-transient="true" />
 
 
 
@@ -76,21 +76,21 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="OThiMDZjNGU0N2YyYTMxZjNiZDgzODU0ODY0ZDk3ZTcwMjk5YTI3ZjUzYWNkMmVkYjg0Njg1OGJiZjkwMzdlNXx7InJlbW90ZV9hZGRyZXNzIjoiOTQuMjUuMjM5LjEyMiIsInJlcXVlc3RfaWQiOiJEMEY3OjdGNTQ6MTcwRjMwNDoyMDQxQ0Y3OjVFNjBGOUFEIiwidGltZXN0YW1wIjoxNTgzNDEzNjkyLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="NDFkYjdiNzU2ZWQzMzcyYjNmY2QyMTMzMmVjNmRjY2NiMTEyZWYwYjMwNTYyNDg1NjMwYzUzNWZiZDE3MDczOXx7InJlbW90ZV9hZGRyZXNzIjoiOTQuMjUuMjM5LjEyMiIsInJlcXVlc3RfaWQiOiIxODBBOjIwOEZGOjFDNTRCQTI6MjdDRTZEODo1RTYwRkFCRCIsInRpbWVzdGFtcCI6MTU4MzQxMzk1MywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
   <meta http-equiv="x-pjax-version" content="1a494e7495f511fae296fedb112bbe92">
   
 
-      <link href="https://github.com/Mi-Rage/Simple_Banking_System/commits/e81169793ce484cf7e9cea1f96c8c755fcf6ad08.atom" rel="alternate" title="Recent Commits to Simple_Banking_System:e81169793ce484cf7e9cea1f96c8c755fcf6ad08" type="application/atom+xml">
+      <link href="https://github.com/Mi-Rage/Simple_Banking_System/commits/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4.atom" rel="alternate" title="Recent Commits to Simple_Banking_System:b4dac24c9cbb002ac08a5d54d17f00d3f35507e4" type="application/atom+xml">
 
   <meta name="go-import" content="github.com/Mi-Rage/Simple_Banking_System git https://github.com/Mi-Rage/Simple_Banking_System.git">
 
   <meta name="octolytics-dimension-user_id" content="59646864" /><meta name="octolytics-dimension-user_login" content="Mi-Rage" /><meta name="octolytics-dimension-repository_id" content="244118543" /><meta name="octolytics-dimension-repository_nwo" content="Mi-Rage/Simple_Banking_System" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="244118543" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Mi-Rage/Simple_Banking_System" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="true" />
 
 
-    <link rel="canonical" href="https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -163,7 +163,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="yyR86PuMSTcEuB2DNzz4gAXpz7RSTKhAoRi2fju6ySWZ5odE6ymCB0v6Icpd7MOEWEWdNvkE2dZSrpg9yegczw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="Q3kAODeSCvpuY4H9cZF1yKmjhyteopqJ6rh0wVDNOmERu/uUJzfByiEhvbQbQU7M9A/VqfXq6x8ZDlqCop/viw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -314,7 +314,7 @@
       <img class="avatar" height="20" width="20" alt="@Mi-Rage" src="https://avatars3.githubusercontent.com/u/59646864?s=60&amp;v=4" />
       Mi-Rage
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="JjqWjOI5s37PiDn5VntiTyvHlCCCSdwUuI6fgxC0peFyWA7MPuOaGJyybs7oxIiY5Zran2AhDOq2KNAANquMJQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="hCF5bSKmM3REeGzv9rIJDcBEH0QqY75hCWshJf8POtXQQ+Et/nwaEhdCO9hIDePaDhlR+8gLbp8HzW6m2RATEQ==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -408,7 +408,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:59646864,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:59646864,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java&quot;}}" data-hydro-click-hmac="a7ca14468d353c10625de7c2d6c12a28f3e0967ded879e83d0e06901785e679a">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:59646864,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:59646864,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java&quot;}}" data-hydro-click-hmac="a809bfdc854e8b46ab2fa2e76168003bc13356325d3dc59c312e69af5aec0194">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -435,7 +435,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="tovrTXrdKP8KX73Y9dZHaF1S3w9OiiKnFV30ba0feZWG1pOzIj+u7C6AQcng17JSOyNYG8ooGxOULurMq6FIrg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="PnXKN8ajFSZcZLzoBEyD47ArpdtHyBmuAe4xTowiYHQOKLLJnkGTNXi7QPkRTXbZ1loiz8NqIBqAnS/vipxRTw==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -553,17 +553,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-05T16:38:12+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-05T16:42:33+03:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-05T17:08:12+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-05T17:12:33+03:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-05T20:08:12+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-05T20:12:33+03:00">
             in 4 hours
           </button>
         </li>
@@ -621,10 +621,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/Mi-Rage/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}"
-    data-feature-preview-close-hmac="e784c994b388a8e5e59b3c7c320ca4a5d9082c3e182857bc08594e04ffb22b38"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}"
-    data-hydro-click-hmac="a4deed1c6cad7757d76fe93e8e3b51e16ec76f831724e4753f70683bdf170c80"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}"
+    data-feature-preview-close-hmac="dd8dca6878f910efc155563a4488431eb52affc04882482da9d7300c5b2da1fa"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}"
+    data-hydro-click-hmac="91f9826a38552bc042eb7d6646d2bdd7000202446b2ff678459d10b514fdee7c"
   >
     Feature preview
   </button>
@@ -633,12 +633,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Os0cio6eTNbKeK74KkChUfZEkADnc9xYgbQGPB9a6HVur4TKUkRlsJlC+c+U/0uGOBnevwUbDKaPEkm/OUXBsQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="bL6Vgnwamw7wYHMaEbvLN+ad15hWBnv0OoKrh/fTZyE43A3CoMCyaKNaJC2vBCHgKMCZJ7Ruqwo0JOQE0cxO5Q==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_fcb7" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583413692080" class="form-control" /><input type="hidden" name="timestamp_secret" value="6988a7d71bdde77f9607b689b4b2d19c0b94a5445e34f47e6764fbf261e6414d" class="form-control" />
+      <input type="text" name="required_field_5cc3" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583413953929" class="form-control" /><input type="hidden" name="timestamp_secret" value="cbe70632686f19566af4ef483e6bd008ec1d8144afd9c36ce16602c7c9534bd7" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -709,10 +709,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="9EPljvKCy3PMSytdGe6z0F/BKuUXzqfrB7/PJvSsnLntenLrEeD+V5PbmygQ02bnUp09drvrQmmbnRRk3HJHDw==" />      <input type="hidden" name="repository_id" value="244118543">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="wcrObgpOXg74G/zzad5jeoJxzlycw/X9o+dC3dncUOjY81kL6SxrKqeLTIZg47ZNjy3ZzzDmEH8/xZmf8QKLXg==" />      <input type="hidden" name="repository_id" value="244118543">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="bb9a13b929fabcfc47988f35ab4cf22a82f323c4627f76e1d18d6f0195adb65a" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="ea964fc57f9e7a0a11d193e6f3207fc7f7a66d92c0ec7509afdd8c582fa45a9e" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Unwatch
           </span>
@@ -783,9 +783,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/Mi-Rage/Simple_Banking_System/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sTv9WYIz/odS6S9G6fwSOhsRXihGTCrnWWOLHLuH8uMvDFR3Ewk8AgLxJIevJpAMGHvTEZbPLLNA2JRlmTqOeA==" />
+    <form class="starred js-social-form" action="/Mi-Rage/Simple_Banking_System/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="o29o93egqReX3jBCGzhWDDBYh7SdWViCngrnivcZwyc9WMHZ5pprksfGO4Nd4tQ6MzIKjU3aXtaHsfjz1aS/vA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Mi-Rage/Simple_Banking_System" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="ff8b3bb72b248b38e182fd1c453fe1aa0915d2dbb58aa064f0575d1a12b8c992" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Mi-Rage/Simple_Banking_System" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="2a2eb2c22456ca696044999dc18339f8b41a1944bdc60286f5002d8e06134ed1" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/Mi-Rage/Simple_Banking_System/stargazers"
@@ -793,9 +793,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/Mi-Rage/Simple_Banking_System/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="d2JqCQ9SYhoLC4CB8c/2V8tnRj/Y8GN4ubbV3I328hyYhFozqouWXAeichR/NtKBdKk85SyFabkrGXQVExWY1w==" />
+    <form class="unstarred js-social-form" action="/Mi-Rage/Simple_Banking_System/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="4sOv03IBpcMSnFottV9iE/1XCozzqi3Ztu+ObPRveg0NJZ/p19hRhR41qLg7pkbFQplwVgffJxgkQC+laowQxg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Mi-Rage/Simple_Banking_System" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="9699ad15e06829c125267ad7ae05c373ec48bd4c26af3f377a04590527da0c96" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Mi-Rage/Simple_Banking_System" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:244118543,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}" data-hydro-click-hmac="3c6f375ac42974a4599afeb332977762a80e98ceac8e526074dad110b98934bb" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/Mi-Rage/Simple_Banking_System/stargazers"
@@ -958,9 +958,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:c6cd5a8f1b6807c11a34ead9a852595c -->
+    <!-- blob contrib key: blob_contributors:v22:d4c02ee61883cce44c6adec957ef9b63 -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -971,11 +971,11 @@
            data-hotkey="w"
            title="Switch branches or tags">
     <i>Tree:</i>
-    <span class="css-truncate-target" data-menu-button>e81169793c</span>
+    <span class="css-truncate-target" data-menu-button>b4dac24c9c</span>
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Mi-Rage/Simple_Banking_System/refs/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Mi-Rage/Simple_Banking_System/refs/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
@@ -985,7 +985,7 @@
 </details>
 
         <div class="BtnGroup flex-shrink-0 d-md-none">
-          <a href="/Mi-Rage/Simple_Banking_System/find/e81169793ce484cf7e9cea1f96c8c755fcf6ad08"
+          <a href="/Mi-Rage/Simple_Banking_System/find/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4"
                 class="js-pjax-capture-input btn btn-sm BtnGroup-item"
                 data-pjax
                 data-hotkey="t">
@@ -997,11 +997,11 @@
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Mi-Rage/Simple_Banking_System/tree/e81169793ce484cf7e9cea1f96c8c755fcf6ad08"><span>Simple_Banking_System</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Mi-Rage/Simple_Banking_System/tree/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking"><span>banking</span></a></span><span class="separator">/</span><strong class="final-path">Bank.java</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Mi-Rage/Simple_Banking_System/tree/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4"><span>Simple_Banking_System</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Mi-Rage/Simple_Banking_System/tree/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking"><span>banking</span></a></span><span class="separator">/</span><strong class="final-path">Bank.java</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
-        <a href="/Mi-Rage/Simple_Banking_System/find/e81169793ce484cf7e9cea1f96c8c755fcf6ad08"
+        <a href="/Mi-Rage/Simple_Banking_System/find/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
               data-pjax
               data-hotkey="t">
@@ -1017,7 +1017,7 @@
 
 
 
-    <include-fragment src="/Mi-Rage/Simple_Banking_System/contributors/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java" class="Box Box--condensed commit-loader">
+    <include-fragment src="/Mi-Rage/Simple_Banking_System/contributors/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -1037,17 +1037,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      120 lines (101 sloc)
+      139 lines (118 sloc)
       <span class="file-info-divider"></span>
-    4.32 KB
+    5.04 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Mi-Rage/Simple_Banking_System/raw/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Mi-Rage/Simple_Banking_System/blame/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Mi-Rage/Simple_Banking_System/commits/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Mi-Rage/Simple_Banking_System/raw/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Mi-Rage/Simple_Banking_System/blame/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Mi-Rage/Simple_Banking_System/commits/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java">History</a>
     </div>
 
 
@@ -1267,7 +1267,8 @@
       </tr>
       <tr>
         <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">final</span> <span class="pl-smi">String</span> <span class="pl-c1">CHECK_SUM</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>5<span class="pl-pds">&quot;</span></span>;                   <span class="pl-c"><span class="pl-c">//</span>Контрольная сумма</span></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
@@ -1288,129 +1289,127 @@
       </tr>
       <tr>
         <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">            cardNumber <span class="pl-k">=</span> (<span class="pl-c1">BIN</span> <span class="pl-k">+</span> createAcc <span class="pl-k">+</span> <span class="pl-c1">CHECK_SUM</span>); <span class="pl-c"><span class="pl-c">//</span>Собираем номер карты</span></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">            cardNumber <span class="pl-k">=</span> <span class="pl-c1">BIN</span> <span class="pl-k">+</span> createAcc;               <span class="pl-c"><span class="pl-c">//</span>Собираем номер карты</span></td>
       </tr>
       <tr>
         <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">while</span> (accountStore<span class="pl-k">.</span>containsKey(cardNumber)); <span class="pl-c"><span class="pl-c">//</span>Проверяем есть ли уже такая карта</span></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">            cardNumber<span class="pl-k">=</span> cardNumber <span class="pl-k">+</span> checkSum(cardNumber); <span class="pl-c"><span class="pl-c">//</span>Добавляем контрольную сумму</span></td>
       </tr>
       <tr>
         <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">while</span> (accountStore<span class="pl-k">.</span>containsKey(cardNumber)); <span class="pl-c"><span class="pl-c">//</span>Проверяем есть ли уже такая карта</span></td>
       </tr>
       <tr>
         <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Your card have been created<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Your card number:<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> cardNumber);</td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Your card have been created<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Your card number:<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> cardNumber);</td>
       </tr>
       <tr>
         <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span>Создаем рандом от [0 до 10000) и форматируем в 4 цифры сохраняя ведущие нули</span></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">        cardPin <span class="pl-k">=</span> <span class="pl-smi">String</span><span class="pl-k">.</span>format(<span class="pl-s"><span class="pl-pds">&quot;</span>%04d<span class="pl-pds">&quot;</span></span>, random<span class="pl-k">.</span>nextInt(<span class="pl-c1">10000</span>));</td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span>Создаем рандом от [0 до 10000) и форматируем в 4 цифры сохраняя ведущие нули</span></td>
       </tr>
       <tr>
         <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">        cardPin <span class="pl-k">=</span> <span class="pl-smi">String</span><span class="pl-k">.</span>format(<span class="pl-s"><span class="pl-pds">&quot;</span>%04d<span class="pl-pds">&quot;</span></span>, random<span class="pl-k">.</span>nextInt(<span class="pl-c1">10000</span>));</td>
       </tr>
       <tr>
         <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Your card PIN:<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> cardPin <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">        accountStore<span class="pl-k">.</span>put(cardNumber, cardPin);      <span class="pl-c"><span class="pl-c">//</span>Сохнанияем набор карта-pin</span></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Your card PIN:<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> cardPin <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">        accountStore<span class="pl-k">.</span>put(cardNumber, cardPin);      <span class="pl-c"><span class="pl-c">//</span>Сохнанияем набор карта-pin</span></td>
       </tr>
       <tr>
         <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">    }</td>
       </tr>
       <tr>
         <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Логин в свой аккаунт</span></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">void</span> <span class="pl-en">logIntoAccount</span>() {</td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Вычисляем контрольную сумму по алгоритму Луна</span></td>
       </tr>
       <tr>
         <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">String</span> inputCardNumber;                       <span class="pl-c"><span class="pl-c">//</span>Введенный номер карты</span></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-smi">String</span> <span class="pl-en">checkSum</span>(<span class="pl-smi">String</span> <span class="pl-v">cardNumber</span>) {</td>
       </tr>
       <tr>
         <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">String</span> inputCardPin;                          <span class="pl-c"><span class="pl-c">//</span>Введенный pin</span></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">int</span>[] number <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">int</span>[cardNumber<span class="pl-k">.</span>length()];</td>
       </tr>
       <tr>
         <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">int</span> sum <span class="pl-k">=</span> <span class="pl-c1">0</span>;</td>
       </tr>
       <tr>
         <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line">        scanner<span class="pl-k">.</span>nextLine();  <span class="pl-c"><span class="pl-c">//</span>Очистим сканер</span></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">for</span>(<span class="pl-k">int</span> i <span class="pl-k">=</span> <span class="pl-c1">0</span>; i <span class="pl-k">&lt;</span> cardNumber<span class="pl-k">.</span>length() ; i<span class="pl-k">++</span>){</td>
       </tr>
       <tr>
         <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Enter your card number:<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">            number[i] <span class="pl-k">=</span> <span class="pl-smi">Integer</span><span class="pl-k">.</span>parseInt(<span class="pl-smi">String</span><span class="pl-k">.</span>valueOf(cardNumber<span class="pl-k">.</span>charAt(i)));</td>
       </tr>
       <tr>
         <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line">        inputCardNumber <span class="pl-k">=</span> scanner<span class="pl-k">.</span>nextLine();</td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> (i <span class="pl-k">%</span> <span class="pl-c1">2</span> <span class="pl-k">==</span> <span class="pl-c1">0</span>) {</td>
       </tr>
       <tr>
         <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Enter your PIN:<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> (number[i] <span class="pl-k">*</span> <span class="pl-c1">2</span> <span class="pl-k">&gt;</span> <span class="pl-c1">9</span>) {</td>
       </tr>
       <tr>
         <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">        inputCardPin <span class="pl-k">=</span> scanner<span class="pl-k">.</span>nextLine();</td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">                    number[i] <span class="pl-k">=</span> number[i] <span class="pl-k">*</span> <span class="pl-c1">2</span> <span class="pl-k">-</span> <span class="pl-c1">9</span>;</td>
       </tr>
       <tr>
         <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">                } <span class="pl-k">else</span> {</td>
       </tr>
       <tr>
         <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span>(accountStore<span class="pl-k">.</span>containsKey(inputCardNumber) <span class="pl-k">&amp;&amp;</span> accountStore<span class="pl-k">.</span>get(inputCardNumber)<span class="pl-k">.</span>equals(inputCardPin)) {</td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">                    number[i] <span class="pl-k">=</span> number[i] <span class="pl-k">*</span> <span class="pl-c1">2</span>;</td>
       </tr>
       <tr>
         <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>You have successfully logged in!<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">                }</td>
       </tr>
       <tr>
         <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line">            operationAcc();</td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">            }</td>
       </tr>
       <tr>
         <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">else</span> {</td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">            sum <span class="pl-k">=</span> sum <span class="pl-k">+</span> number[i];</td>
       </tr>
       <tr>
         <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Wrong card number or PIN!<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">        }</td>
       </tr>
       <tr>
         <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">        }</td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> <span class="pl-smi">String</span><span class="pl-k">.</span>valueOf((<span class="pl-c1">10</span> <span class="pl-k">-</span> (sum <span class="pl-k">%</span> <span class="pl-c1">10</span>) <span class="pl-k">==</span> <span class="pl-c1">10</span>) <span class="pl-k">?</span> <span class="pl-c1">0</span> <span class="pl-k">:</span> (<span class="pl-c1">10</span> <span class="pl-k">-</span> (sum <span class="pl-k">%</span> <span class="pl-c1">10</span>)));</td>
       </tr>
       <tr>
         <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
@@ -1423,159 +1422,238 @@
       </tr>
       <tr>
         <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Операции в личном кабинете</span></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Логин в свой аккаунт</span></td>
       </tr>
       <tr>
         <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">void</span> <span class="pl-en">operationAcc</span>() {</td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">void</span> <span class="pl-en">logIntoAccount</span>() {</td>
       </tr>
       <tr>
         <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="LC85" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">int</span> choice;</td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">String</span> inputCardNumber;                       <span class="pl-c"><span class="pl-c">//</span>Введенный номер карты</span></td>
       </tr>
       <tr>
         <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">String</span> inputCardPin;                          <span class="pl-c"><span class="pl-c">//</span>Введенный pin</span></td>
       </tr>
       <tr>
         <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">do</span> {</td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="LC88" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>1. Balance<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">        scanner<span class="pl-k">.</span>nextLine();  <span class="pl-c"><span class="pl-c">//</span>Очистим сканер</span></td>
       </tr>
       <tr>
         <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
-        <td id="LC89" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>2. Log out<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Enter your card number:<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="LC90" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>0. Exit<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">        inputCardNumber <span class="pl-k">=</span> scanner<span class="pl-k">.</span>nextLine();</td>
       </tr>
       <tr>
         <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="LC91" class="blob-code blob-code-inner js-file-line">            choice <span class="pl-k">=</span> scanner<span class="pl-k">.</span>nextInt();</td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Enter your PIN:<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="LC92" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">switch</span> (choice) {</td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">        inputCardPin <span class="pl-k">=</span> scanner<span class="pl-k">.</span>nextLine();</td>
       </tr>
       <tr>
         <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
-        <td id="LC93" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">case</span> <span class="pl-c1">0</span><span class="pl-k">:</span></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
-        <td id="LC94" class="blob-code blob-code-inner js-file-line">                    exit();</td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span>(accountStore<span class="pl-k">.</span>containsKey(inputCardNumber) <span class="pl-k">&amp;&amp;</span> accountStore<span class="pl-k">.</span>get(inputCardNumber)<span class="pl-k">.</span>equals(inputCardPin)) {</td>
       </tr>
       <tr>
         <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
-        <td id="LC95" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">break</span>;</td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>You have successfully logged in!<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
-        <td id="LC96" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">case</span> <span class="pl-c1">1</span><span class="pl-k">:</span></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">            operationAcc();</td>
       </tr>
       <tr>
         <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
-        <td id="LC97" class="blob-code blob-code-inner js-file-line">                    viewBalance();</td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">else</span> {</td>
       </tr>
       <tr>
         <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
-        <td id="LC98" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">break</span>;</td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Wrong card number or PIN!<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="LC99" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">case</span> <span class="pl-c1">2</span><span class="pl-k">:</span></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">        }</td>
       </tr>
       <tr>
         <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
-        <td id="LC100" class="blob-code blob-code-inner js-file-line">                    <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>You have successfully logged out!<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">    }</td>
       </tr>
       <tr>
         <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
-        <td id="LC101" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">return</span>;</td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
-        <td id="LC102" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">default</span><span class="pl-k">:</span></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Операции в личном кабинете</span></td>
       </tr>
       <tr>
         <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
-        <td id="LC103" class="blob-code blob-code-inner js-file-line">                    <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>ERROR: Не верный номер.<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">void</span> <span class="pl-en">operationAcc</span>() {</td>
       </tr>
       <tr>
         <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
-        <td id="LC104" class="blob-code blob-code-inner js-file-line">            }</td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">int</span> choice;</td>
       </tr>
       <tr>
         <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
-        <td id="LC105" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">while</span> (choice <span class="pl-k">!=</span> <span class="pl-c1">0</span>);</td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
-        <td id="LC106" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">do</span> {</td>
       </tr>
       <tr>
         <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="LC107" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>1. Balance<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="LC108" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>2. Log out<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="LC109" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Запрос баланса</span></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>0. Exit<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
-        <td id="LC110" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">void</span> <span class="pl-en">viewBalance</span>() {</td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line">            choice <span class="pl-k">=</span> scanner<span class="pl-k">.</span>nextInt();</td>
       </tr>
       <tr>
         <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
-        <td id="LC111" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">int</span> balance <span class="pl-k">=</span> <span class="pl-c1">0</span>;</td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">switch</span> (choice) {</td>
       </tr>
       <tr>
         <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
-        <td id="LC112" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Balance: <span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> balance <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">case</span> <span class="pl-c1">0</span><span class="pl-k">:</span></td>
       </tr>
       <tr>
         <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
-        <td id="LC113" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line">                    exit();</td>
       </tr>
       <tr>
         <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
-        <td id="LC114" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">break</span>;</td>
       </tr>
       <tr>
         <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
-        <td id="LC115" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Безопасный выход</span></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">case</span> <span class="pl-c1">1</span><span class="pl-k">:</span></td>
       </tr>
       <tr>
         <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="LC116" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">void</span> <span class="pl-en">exit</span>() {</td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">                    viewBalance();</td>
       </tr>
       <tr>
         <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="LC117" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Bye!<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">break</span>;</td>
       </tr>
       <tr>
         <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
-        <td id="LC118" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>exit(<span class="pl-c1">0</span>);</td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">case</span> <span class="pl-c1">2</span><span class="pl-k">:</span></td>
       </tr>
       <tr>
         <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
-        <td id="LC119" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line">                    <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>You have successfully logged out!<span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
-        <td id="LC120" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">return</span>;</td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">default</span><span class="pl-k">:</span></td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line">                    <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>ERROR: Не верный номер.<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line">            }</td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">        } <span class="pl-k">while</span> (choice <span class="pl-k">!=</span> <span class="pl-c1">0</span>);</td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Запрос баланса</span></td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">void</span> <span class="pl-en">viewBalance</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">int</span> balance <span class="pl-k">=</span> <span class="pl-c1">0</span>;</td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Balance: <span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> balance <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span><span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>Безопасный выход</span></td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-k">void</span> <span class="pl-en">exit</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">\n</span>Bye!<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>exit(<span class="pl-c1">0</span>);</td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
 </table>
 
@@ -1595,7 +1673,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/Mi-Rage/Simple_Banking_System/blame/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/Mi-Rage/Simple_Banking_System/blame/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/Mi-Rage/Simple_Banking_System/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -1619,11 +1697,11 @@
     <div class="Popover anim-scale-in js-tagsearch-popover"
      hidden
      data-tagsearch-url="/Mi-Rage/Simple_Banking_System/find-symbols"
-     data-tagsearch-ref="e81169793ce484cf7e9cea1f96c8c755fcf6ad08"
+     data-tagsearch-ref="b4dac24c9cbb002ac08a5d54d17f00d3f35507e4"
      data-tagsearch-path="banking/Bank.java"
      data-tagsearch-lang="Java"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:244118543,&quot;ref&quot;:&quot;e81169793ce484cf7e9cea1f96c8c755fcf6ad08&quot;,&quot;language&quot;:&quot;Java&quot;,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/e81169793ce484cf7e9cea1f96c8c755fcf6ad08/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}"
-     data-hydro-click-hmac="7ebc65db553fdc503b3f0ba9a864990c1dd0726ccabc6811317bd5b0d90f41df">
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:244118543,&quot;ref&quot;:&quot;b4dac24c9cbb002ac08a5d54d17f00d3f35507e4&quot;,&quot;language&quot;:&quot;Java&quot;,&quot;originating_url&quot;:&quot;https://github.com/Mi-Rage/Simple_Banking_System/blob/b4dac24c9cbb002ac08a5d54d17f00d3f35507e4/banking/Bank.java&quot;,&quot;user_id&quot;:59646864}}"
+     data-hydro-click-hmac="b32492de8c57bac9ab2130995a83d0810913968c8ba6aa93bdd85174cd6e2fa8">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
