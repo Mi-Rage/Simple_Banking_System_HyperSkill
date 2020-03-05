@@ -1,4 +1,11 @@
-#Simple Banking System of HyperSkill. 
+# Simple Banking System of HyperSkill. 
+
+Work on project. Stage 2/4: Luhn algorithm.
+
+Этап 2/4 выполнен. Тест HyperSkill пройден.
+
+Реализован расчет контрольной суммы номера карты с помощью алгоритма Луна. Теперь все созданные номера карт - 100% валидные, как настоящие)).
+
 Work on project. Stage 1/4: Card anatomy.
 
 Этап 1/4 выполнен. Тест HyperSkill пройден.
