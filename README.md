@@ -1,5 +1,13 @@
 # Simple Banking System of HyperSkill. 
 
+Work on project. Stage 3/4.
+
+Этап 3/4 выполнен. Тест HyperSkill пройден.
+
+Переосмысление программы. Реализация в виде ООП. 
+Создание классов банковских_карт, банка, базы данных, настройка запросов к безе данных.
+
+
 Work on project. Stage 2/4: Luhn algorithm.
 
 Этап 2/4 выполнен. Тест HyperSkill пройден.
