@@ -7,7 +7,8 @@ public class BankCard {
 
     private String cardNumber;                //Храним номера карт
     private String cardPin;                   //Храним pin
-    private int balance = 0;                  //Храним баланс
+    private int cardBalance = 0;              //Храним баланс
+
 
     //Создаём карту и пин в конструкторе класса
     public BankCard() {
@@ -26,7 +27,7 @@ public class BankCard {
     }
 
     //Вычисляем контрольную сумму по алгоритму Луна
-    private String checkSum(String cardNumber) {
+    public static String checkSum(String cardNumber) {
         int[] number = new int[cardNumber.length()];
         int sum = 0;
         for(int i = 0; i < cardNumber.length() ; i++){
@@ -51,10 +52,6 @@ public class BankCard {
         return cardPin;
     }
 
-    public int getBalance() {
-        return balance;
-    }
-
     public void setCardNumber(String cardNumber) {
         this.cardNumber = cardNumber;
     }
@@ -63,7 +60,7 @@ public class BankCard {
         this.cardPin = cardPin;
     }
 
-    public void setBalance(int balance) {
-        this.balance = balance;
+    public void setCardBalance(int cardBalance) {
+        this.cardBalance = cardBalance;
     }
 }

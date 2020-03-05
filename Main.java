@@ -11,9 +11,9 @@ public class Main {
         } else {
             fileName = "card.s3db";
         }
-//        DataBase dataBase = new DataBase(fileName);
-//        dataBase.createNewDatabase(fileName);
-//        dataBase.createNewTable();
+        DataBase dataBase = new DataBase(fileName);
+        dataBase.createNewDatabase(fileName);
+        dataBase.createNewTable();
         Bank bank = new Bank(fileName);
         bank.init();
     }

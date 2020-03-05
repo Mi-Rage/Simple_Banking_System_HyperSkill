@@ -43,7 +43,7 @@ public class DataBase {
 
         // SQL statement for creating a new table
         String sql = "CREATE TABLE IF NOT EXISTS card (\n"
-                + "    id INTEGER,\n"
+                + "    id INTEGER PRIMARY KEY ASC,\n"
                 + "    number TEXT,\n"
                 + "    pin TEXT,\n"
                 + "    balance INTEGER DEFAULT 0\n"
@@ -101,12 +101,34 @@ public class DataBase {
         }
     }
 
-    //Запрос на номер карты из БД
+    //Получаем номер карты из БД по заданному номеру карты
+    public String selectCardNum(String cardNumber) {
+
+        String resultNumber = "";
+
+        String sql = "SELECT number, pin, balance FROM card WHERE number=" + cardNumber;
+
+        try (Connection conn = this.connect();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+
+            // loop through the result set
+            while (rs.next()) {
+                resultNumber = rs.getString("number");
+                System.out.println("selectCard() = " + resultNumber);
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return resultNumber;
+    }
+
+    //Запрос на получение объекта с номером карты и PIN из БД
     public BankCard selectCard(String cardNumber, String cardPin) {
         BankCard result  = new BankCard();
         String resultNumber = "";
         String resultPin = "";
-        int resultBalance = 0;
+
         String sql = "SELECT number, pin, balance FROM card WHERE number=" + cardNumber
                 + " AND pin=" + cardPin;
 
@@ -118,7 +140,6 @@ public class DataBase {
             while (rs.next()) {
                 resultNumber = rs.getString("number");
                 resultPin = rs.getString("pin");
-                resultBalance = rs.getInt("balance");
                 System.out.println("selectCard() = " + resultNumber + "\n pin=" + rs.getString("pin"));
             }
         } catch (SQLException e) {
@@ -127,7 +148,119 @@ public class DataBase {
 
         result.setCardNumber(resultNumber);
         result.setCardPin(resultPin);
-        result.setBalance(resultBalance);
         return result;
+    }
+
+    //Запрос на получение объекта с номером карты и балансом из БД
+    public BankCard selectDestCard(String cardNumber) {
+        BankCard result  = new BankCard();
+        String resultNumber = "";
+        int resultBalance = 0;
+
+        String sql = "SELECT number, balance FROM card WHERE number=" + cardNumber;
+
+        try (Connection conn = this.connect();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+
+            // loop through the result set
+            while (rs.next()) {
+                resultNumber = rs.getString("number");
+                resultBalance = rs.getInt("balance");
+                System.out.println("selectCard() = " + resultNumber + "\n bal=" + rs.getInt("balance"));
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+        result.setCardNumber(resultNumber);
+        result.setCardBalance(resultBalance);
+        return result;
+    }
+
+    //Удаление данных карты из БД
+    public void closeAccount(BankCard bankCard){
+        int delId = 0;
+        String sql = "SELECT id FROM card WHERE number=" + bankCard.getCardNumber();
+        System.out.println("запрос на del " + bankCard.getCardNumber());
+        try (Connection conn = this.connect();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+
+            // loop through the result set
+            while (rs.next()) {
+                delId = rs.getInt("id");
+                System.out.println("Найден id = " + delId);
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+        sql = "DELETE FROM card WHERE id = ?";
+        System.out.println("try del " + bankCard.getCardNumber() + " id=" + delId);
+
+        try (Connection conn = this.connect();
+             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+
+            // set the corresponding param
+            pstmt.setInt(1,delId);
+            // execute the delete statement
+            pstmt.executeUpdate();
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    //Вносим изменение в ячейку balance
+    public void addBalance(int balance, BankCard bankCard) {
+        int thisId = 0;
+        String sql = "SELECT id FROM card WHERE number=" + bankCard.getCardNumber();
+        System.out.println("запрос на пополнение " + bankCard.getCardNumber());
+        try (Connection conn = this.connect();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+
+            // loop through the result set
+            while (rs.next()) {
+                thisId = rs.getInt("id");
+                System.out.println("Найден id = " + thisId);
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+        sql = "UPDATE card SET balance = ? WHERE id = ?";
+
+        try (Connection conn = this.connect();
+             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+
+            // set the corresponding param
+            pstmt.setInt(1, balance);
+            pstmt.setInt(2, thisId);
+            // update
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    //Получаем баланс из БД по объекту карты
+    public int getBalance(BankCard currentCard) {
+        int resultBalance = 0;
+        String sql = "SELECT balance FROM card WHERE number=" + currentCard.getCardNumber();
+
+        try (Connection conn = this.connect();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+
+            // loop through the result set
+            while (rs.next()) {
+                resultBalance = rs.getInt("balance");
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return resultBalance;
     }
 }
